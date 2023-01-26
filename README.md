@@ -1,6 +1,7 @@
 # Read-from-CSV
 
 ## AIM:
+To write a python program to read data from CSV file.
 
 ## ALGORITHM:
 
@@ -17,15 +18,23 @@ End the program.
 
 ## PROGRAM:
 '''
+
 Developed By : Shriram S 
 
 Referance No. : 22008494
+
 '''
+
 import pandas as pd
+
 f=pd.read_csv('nba.csv')
+
 print(f.head(10))
+
 print(f.tail())
+
 print('Row:',len(f.axes[0]))
+
 print('Col:',len(f.axes[1]))
 
 ## OUTPUT:
